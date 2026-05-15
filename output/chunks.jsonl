@@ -1,0 +1,5 @@
+{"doc": "example.md", "pid": 1, "text": "Python overview: Python is widely used in web development, scripting, and data analysis."}
+{"doc": "example.md", "pid": 2, "text": "Function basics: In Python, a function can accept a parameter and return a value. You define a function with def, pass a parameter into the function, and use return to send a value back."}
+{"doc": "example.md", "pid": 3, "text": "Loop basics: A loop repeats actions. A for loop and a while loop are basic control structures."}
+{"doc": "example.md", "pid": 4, "text": "JSONL notes: JSONL stores one JSON object per line. It is useful for saving structured text data."}
+{"doc": "example.md", "pid": 5, "text": "Data structures: Lists and dictionaries are common Python data structures."}

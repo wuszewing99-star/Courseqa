@@ -1,2 +1,41 @@
-# Courseqa
-CourseQA 是一款面向课程学习的智能问答助手，核心功能包括：基于课程文档的语义检索与问答交互、历史问答数据的统计可视化。系统采用模块化设计，由检索模块、生成模块和统计模块协同工作，用户提问后可快速匹配课程资料并生成回答，同时自动生成每日提问量、高频问题等分析图表。项目解决了课程资料碎片化、答疑效率低下的问题，提升了学习效率与教学反馈的及时性。
+# CourseQA Lesson 10
+
+第10次课：让 CourseQA 更像真实项目。
+
+## 功能
+
+- FastAPI 查询接口
+- TF-IDF 检索
+- 历史记录保存到 `data/history.json`
+- 查询历史、关键词搜索、时间筛选、删除和清空历史
+- logging 日志保存到 `logs/courseqa.log`
+- 文件读写异常处理
+
+## 安装依赖
+
+```bash
+pip install fastapi uvicorn scikit-learn
+```
+
+## 启动服务
+
+```bash
+uvicorn app:app --reload
+```
+
+## 打开接口文档
+
+浏览器访问：
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+## 测试顺序
+
+1. GET `/health`
+2. POST `/query`
+3. GET `/history`
+4. GET `/history/search?keyword=FastAPI`
+5. DELETE `/history/{record_id}`
+6. DELETE `/history`

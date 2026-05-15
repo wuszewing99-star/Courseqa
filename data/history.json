@@ -1,0 +1,1018 @@
+[
+  {
+    "id": 1,
+    "query": "string",
+    "top_k": 5,
+    "time": "2026-05-2 22:00:53",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.0,
+        "doc": "test.md",
+        "pid": 1,
+        "text": "FastAPI"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 5,
+        "text": "更稳定指的是在文件读写、JSON 解析和接口调用中加入异常处理，避免程序直接崩溃。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 4,
+        "text": "可追踪指的是通过 logging 模块将服务启动、用户查询、检索结果和异常错误写入 logs/courseqa.log。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 3,
+        "text": "有记忆指的是将用户 query 和系统返回的 hits 保存到 data/history.json 文件中。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 2,
+        "text": "CourseQA 第10次课的目标是让系统有记忆、可追踪、更稳定。"
+      }
+    ],
+    "tag": "Soft"
+  },
+  {
+    "id": 2,
+    "query": "python",
+    "top_k": 5,
+    "time": "2026-05-2 22:00:59",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.38959542094978344,
+        "doc": "example.md",
+        "pid": 1,
+        "text": "Python overview: Python is widely used in web development, scripting, and data analysis."
+      },
+      {
+        "score": 0.2287306869233731,
+        "doc": "lesson1.md",
+        "pid": 4,
+        "text": "CourseQA 项目通过 FastAPI 将离线检索功能封装成接口，用户可以通过浏览器、Swagger UI、curl 或 Python 脚本调用。"
+      },
+      {
+        "score": 0.20705723320685349,
+        "doc": "example.md",
+        "pid": 5,
+        "text": "Data structures: Lists and dictionaries are common Python data structures."
+      },
+      {
+        "score": 0.20171201896593235,
+        "doc": "lesson1.md",
+        "pid": 2,
+        "text": "FastAPI 是一个用于构建 API 服务的 Python Web 框架。它可以快速定义接口，并自动生成 Swagger UI 文档。"
+      },
+      {
+        "score": 0.0960005389778854,
+        "doc": "example.md",
+        "pid": 2,
+        "text": "Function basics: In Python, a function can accept a parameter and return a value. You define a function with def, pass a parameter into the function, and use return to send a value back."
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 3,
+    "query": "Fast",
+    "top_k": 5,
+    "time": "2026-05-6 22:01:06",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.0,
+        "doc": "test.md",
+        "pid": 1,
+        "text": "FastAPI"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 5,
+        "text": "更稳定指的是在文件读写、JSON 解析和接口调用中加入异常处理，避免程序直接崩溃。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 4,
+        "text": "可追踪指的是通过 logging 模块将服务启动、用户查询、检索结果和异常错误写入 logs/courseqa.log。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 3,
+        "text": "有记忆指的是将用户 query 和系统返回的 hits 保存到 data/history.json 文件中。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 2,
+        "text": "CourseQA 第10次课的目标是让系统有记忆、可追踪、更稳定。"
+      }
+    ],
+    "tag": "FastAPI"
+  },
+  {
+    "id": 4,
+    "query": "FastAPI",
+    "top_k": 6,
+    "time": "2026-05-6 22:28:16",
+    "hit_count": 6,
+    "hits": [
+      {
+        "score": 1.0,
+        "doc": "test.md",
+        "pid": 1,
+        "text": "FastAPI"
+      },
+      {
+        "score": 0.5056452247928089,
+        "doc": "lesson1.md",
+        "pid": 1,
+        "text": "# FastAPI 入门"
+      },
+      {
+        "score": 0.46451892455749744,
+        "doc": "example.md",
+        "pid": 20,
+        "text": "FastAPI 是一个现代 Python Web 框架，支持异步编程和自动生成 Swagger UI 文档。通过 FastAPI，可以快速构建 API 服务，定义 GET、POST 等请求接口，并自动校验参数类型。FastAPI 还支持依赖注入、中间件和 WebSocket，适合构建高性能、可维护的后端服务。在课堂项目中，FastAPI 可以将离线检索功能封装成接口，便于前端调用。"
+      },
+      {
+        "score": 0.24150497057870077,
+        "doc": "lesson2.md",
+        "pid": 14,
+        "text": "FastAPI 的一个重要优势是可以自动生成 Swagger UI 文档。只要定义好接口路径、请求参数和返回数据，FastAPI 就能在浏览器中展示交互式接口文档。学生可以直接在 Swagger UI 中填写参数并测试接口，不需要额外安装 Postman。对于教学来说，这极大降低了接口测试门槛。通过 Swagger UI，学生可以观察请求参数如何传递，返回结果如何展示，也可以理解接口文档在真实项目..."
+      },
+      {
+        "score": 0.24150497057870077,
+        "doc": "lesson1.md",
+        "pid": 13,
+        "text": "FastAPI 的一个重要优势是可以自动生成 Swagger UI 文档。只要定义好接口路径、请求参数和返回数据，FastAPI 就能在浏览器中展示交互式接口文档。学生可以直接在 Swagger UI 中填写参数并测试接口，不需要额外安装 Postman。对于教学来说，这极大降低了接口测试门槛。通过 Swagger UI，学生可以观察请求参数如何传递，返回结果如何展示，也可以理解接口文档在真实项目..."
+      },
+      {
+        "score": 0.22271608564310993,
+        "doc": "lesson1.md",
+        "pid": 4,
+        "text": "CourseQA 项目通过 FastAPI 将离线检索功能封装成接口，用户可以通过浏览器、Swagger UI、curl 或 Python 脚本调用。"
+      }
+    ],
+    "tag": "FastAPI"
+  },
+  {
+    "id": 5,
+    "query": "项目",
+    "top_k": 6,
+    "time": "2026-05-11 22:28:37",
+    "hit_count": 6,
+    "hits": [
+      {
+        "score": 0.0,
+        "doc": "test.md",
+        "pid": 1,
+        "text": "FastAPI"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 29,
+        "text": "CourseQA 项目虽然规模不大，但已经包含了真实软件项目中的多个重要元素，包括文件读取、文本检索、接口开发、历史记录、日志系统、异常处理、数据统计和可视化展示。通过这个项目，学生不仅能练习 Python 语法，还能理解一个系统如何从单文件脚本逐步演化为模块化工程。更重要的是，学生可以看到每次新增功能都需要考虑原有结构、数据格式、接口调用和测试验证，这正是软件工程课程希望培养的能力。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 28,
+        "text": "项目迭代过程中，最容易出现的问题是新功能破坏旧功能。例如第10次课已经实现了历史记录功能，第11次课增加统计和可视化时，如果强行改变 history.json 的结构，就可能导致原来的历史查询接口失效。因此，在软件工程中，升级功能时要尽量兼容已有数据结构。如果确实需要改变数据格式，也应提供转换逻辑或兼容读取逻辑，而不是让系统中出现新旧格式混合、无法统一处理的情况。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 27,
+        "text": "测试是软件项目不可缺少的环节。对于 CourseQA 项目来说，可以测试 Markdown 文档是否能正常读取，文本块是否能正常切分，TF-IDF 索引是否能构建，查询接口是否能返回结果，历史记录是否能写入，统计接口是否能正确输出数据。如果每次新增功能后都手动点页面测试，很容易遗漏问题。因此可以逐步引入简单的测试脚本或单元测试，帮助学生理解软件质量保障的基本思想。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 26,
+        "text": "查询参数增强可以提升系统的可配置性。例如 min_score 可以过滤相似度过低的检索结果，max_chars 可以控制返回文本长度，top_k 可以控制返回条数。这些参数能够让同一个查询接口适应不同使用场景。比如课堂演示时可以返回较短文本，方便观察；实际使用时可以返回更多段落，提升信息覆盖率。参数设计不仅影响用户体验，也体现了接口设计的灵活性和扩展性。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 25,
+        "text": "统计接口的设计应当尽量返回结构清晰的 JSON 数据。比如 total_questions 表示总查询次数，daily_counts 表示每日提问量，top10_questions 表示高频问题列表，subject_counts 表示科目分类统计。前端拿到这些数据后，可以自由选择展示方式，例如表格、柱状图、折线图、饼图或仪表盘。相比后端直接返回图片，返回结构化数据更加灵活，也更符合前后端分离项目的..."
+      }
+    ],
+    "tag": "项目"
+  },
+  {
+    "id": 6,
+    "query": "CourseQA",
+    "top_k": 6,
+    "time": "2026-05-11 22:29:02",
+    "hit_count": 6,
+    "hits": [
+      {
+        "score": 0.4621444213626682,
+        "doc": "lesson2.md",
+        "pid": 1,
+        "text": "# CourseQA 工程化"
+      },
+      {
+        "score": 0.28811833587100977,
+        "doc": "lesson2.md",
+        "pid": 2,
+        "text": "CourseQA 第10次课的目标是让系统有记忆、可追踪、更稳定。"
+      },
+      {
+        "score": 0.19803233468008172,
+        "doc": "lesson1.md",
+        "pid": 4,
+        "text": "CourseQA 项目通过 FastAPI 将离线检索功能封装成接口，用户可以通过浏览器、Swagger UI、curl 或 Python 脚本调用。"
+      },
+      {
+        "score": 0.19325703646304968,
+        "doc": "lesson2.md",
+        "pid": 4,
+        "text": "可追踪指的是通过 logging 模块将服务启动、用户查询、检索结果和异常错误写入 logs/courseqa.log。"
+      },
+      {
+        "score": 0.14533463458755652,
+        "doc": "lesson2.md",
+        "pid": 27,
+        "text": "测试是软件项目不可缺少的环节。对于 CourseQA 项目来说，可以测试 Markdown 文档是否能正常读取，文本块是否能正常切分，TF-IDF 索引是否能构建，查询接口是否能返回结果，历史记录是否能写入，统计接口是否能正确输出数据。如果每次新增功能后都手动点页面测试，很容易遗漏问题。因此可以逐步引入简单的测试脚本或单元测试，帮助学生理解软件质量保障的基本思想。"
+      },
+      {
+        "score": 0.14533463458755652,
+        "doc": "lesson1.md",
+        "pid": 26,
+        "text": "测试是软件项目不可缺少的环节。对于 CourseQA 项目来说，可以测试 Markdown 文档是否能正常读取，文本块是否能正常切分，TF-IDF 索引是否能构建，查询接口是否能返回结果，历史记录是否能写入，统计接口是否能正确输出数据。如果每次新增功能后都手动点页面测试，很容易遗漏问题。因此可以逐步引入简单的测试脚本或单元测试，帮助学生理解软件质量保障的基本思想。"
+      }
+    ],
+    "tag": "CourseQA"
+  },
+  {
+    "id": 1,
+    "query": "Python循环",
+    "top_k": 5,
+    "time": "2026-05-01 09:00:00",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.95,
+        "doc": "lesson1.md",
+        "pid": 1,
+        "text": "Python循环示例 1"
+      },
+      {
+        "score": 0.88,
+        "doc": "lesson1.md",
+        "pid": 2,
+        "text": "Python循环示例 2"
+      },
+      {
+        "score": 0.86,
+        "doc": "lesson2.md",
+        "pid": 3,
+        "text": "Python循环示例 3"
+      },
+      {
+        "score": 0.82,
+        "doc": "lesson2.md",
+        "pid": 4,
+        "text": "Python循环示例 4"
+      },
+      {
+        "score": 0.8,
+        "doc": "lesson3.md",
+        "pid": 5,
+        "text": "Python循环示例 5"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 2,
+    "query": "列表操作",
+    "top_k": 5,
+    "time": "2026-05-01 10:00:00",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.92,
+        "doc": "lesson1.md",
+        "pid": 6,
+        "text": "列表添加、删除示例"
+      },
+      {
+        "score": 0.89,
+        "doc": "lesson1.md",
+        "pid": 7,
+        "text": "列表切片示例"
+      },
+      {
+        "score": 0.87,
+        "doc": "lesson2.md",
+        "pid": 8,
+        "text": "列表排序与组合示例"
+      },
+      {
+        "score": 0.85,
+        "doc": "lesson2.md",
+        "pid": 9,
+        "text": "嵌套列表处理示例"
+      },
+      {
+        "score": 0.83,
+        "doc": "lesson3.md",
+        "pid": 10,
+        "text": "列表推导式示例"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 3,
+    "query": "字典操作",
+    "top_k": 5,
+    "time": "2026-05-01 11:00:00",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.91,
+        "doc": "lesson1.md",
+        "pid": 11,
+        "text": "字典添加删除示例"
+      },
+      {
+        "score": 0.88,
+        "doc": "lesson2.md",
+        "pid": 12,
+        "text": "字典遍历示例"
+      },
+      {
+        "score": 0.86,
+        "doc": "lesson2.md",
+        "pid": 13,
+        "text": "字典嵌套示例"
+      },
+      {
+        "score": 0.84,
+        "doc": "lesson3.md",
+        "pid": 14,
+        "text": "字典与列表组合示例"
+      },
+      {
+        "score": 0.82,
+        "doc": "lesson3.md",
+        "pid": 15,
+        "text": "字典高级操作示例"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 4,
+    "query": "Python函数",
+    "top_k": 5,
+    "time": "2026-05-02 09:15:00",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.95,
+        "doc": "lesson1.md",
+        "pid": 16,
+        "text": "函数定义示例 1"
+      },
+      {
+        "score": 0.92,
+        "doc": "lesson1.md",
+        "pid": 17,
+        "text": "函数调用示例 2"
+      },
+      {
+        "score": 0.89,
+        "doc": "lesson2.md",
+        "pid": 18,
+        "text": "函数参数示例"
+      },
+      {
+        "score": 0.86,
+        "doc": "lesson2.md",
+        "pid": 19,
+        "text": "函数返回值示例"
+      },
+      {
+        "score": 0.85,
+        "doc": "lesson3.md",
+        "pid": 20,
+        "text": "函数嵌套示例"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 5,
+    "query": "FastAPI路由",
+    "top_k": 5,
+    "time": "2026-05-02 10:30:00",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.95,
+        "doc": "lesson4.md",
+        "pid": 21,
+        "text": "FastAPI GET路由示例"
+      },
+      {
+        "score": 0.92,
+        "doc": "lesson4.md",
+        "pid": 22,
+        "text": "FastAPI POST路由示例"
+      },
+      {
+        "score": 0.9,
+        "doc": "lesson4.md",
+        "pid": 23,
+        "text": "路由路径参数示例"
+      },
+      {
+        "score": 0.88,
+        "doc": "lesson5.md",
+        "pid": 24,
+        "text": "查询参数示例"
+      },
+      {
+        "score": 0.85,
+        "doc": "lesson5.md",
+        "pid": 25,
+        "text": "路由依赖注入示例"
+      }
+    ],
+    "tag": "FastAPI"
+  },
+  {
+    "id": 6,
+    "query": "FastAPI依赖注入",
+    "top_k": 4,
+    "time": "2026-05-02 11:15:00",
+    "hit_count": 4,
+    "hits": [
+      {
+        "score": 0.95,
+        "doc": "lesson4.md",
+        "pid": 26,
+        "text": "依赖注入基础"
+      },
+      {
+        "score": 0.92,
+        "doc": "lesson4.md",
+        "pid": 27,
+        "text": "依赖参数校验示例"
+      },
+      {
+        "score": 0.9,
+        "doc": "lesson5.md",
+        "pid": 28,
+        "text": "组件注入示例"
+      },
+      {
+        "score": 0.88,
+        "doc": "lesson5.md",
+        "pid": 29,
+        "text": "复杂依赖嵌套示例"
+      }
+    ],
+    "tag": "FastAPI"
+  },
+  {
+    "id": 7,
+    "query": "Python异常处理",
+    "top_k": 5,
+    "time": "2026-05-03 09:00:00",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.92,
+        "doc": "lesson2.md",
+        "pid": 30,
+        "text": "try except finally 基本用法"
+      },
+      {
+        "score": 0.9,
+        "doc": "lesson2.md",
+        "pid": 31,
+        "text": "捕获不同类型异常"
+      },
+      {
+        "score": 0.88,
+        "doc": "lesson3.md",
+        "pid": 32,
+        "text": "自定义异常类"
+      },
+      {
+        "score": 0.85,
+        "doc": "lesson3.md",
+        "pid": 33,
+        "text": "异常链处理"
+      },
+      {
+        "score": 0.82,
+        "doc": "lesson3.md",
+        "pid": 34,
+        "text": "日志记录结合异常"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 31,
+    "query": "Python循环",
+    "top_k": 5,
+    "time": "2026-05-12 09:00:00",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.95,
+        "doc": "lesson1.md",
+        "pid": 1,
+        "text": "Python循环示例 1"
+      },
+      {
+        "score": 0.92,
+        "doc": "lesson1.md",
+        "pid": 2,
+        "text": "Python循环示例 2"
+      },
+      {
+        "score": 0.9,
+        "doc": "lesson2.md",
+        "pid": 3,
+        "text": "Python循环示例 3"
+      },
+      {
+        "score": 0.88,
+        "doc": "lesson2.md",
+        "pid": 4,
+        "text": "Python循环示例 4"
+      },
+      {
+        "score": 0.85,
+        "doc": "lesson3.md",
+        "pid": 5,
+        "text": "Python循环示例 5"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 32,
+    "query": "Python循环",
+    "top_k": 5,
+    "time": "2026-05-12 10:00:00",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.94,
+        "doc": "lesson1.md",
+        "pid": 6,
+        "text": "Python循环示例 6"
+      },
+      {
+        "score": 0.91,
+        "doc": "lesson1.md",
+        "pid": 7,
+        "text": "Python循环示例 7"
+      },
+      {
+        "score": 0.89,
+        "doc": "lesson2.md",
+        "pid": 8,
+        "text": "Python循环示例 8"
+      },
+      {
+        "score": 0.87,
+        "doc": "lesson2.md",
+        "pid": 9,
+        "text": "Python循环示例 9"
+      },
+      {
+        "score": 0.85,
+        "doc": "lesson3.md",
+        "pid": 10,
+        "text": "Python循环示例 10"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 33,
+    "query": "列表操作",
+    "top_k": 4,
+    "time": "2026-05-12 11:00:00",
+    "hit_count": 4,
+    "hits": [
+      {
+        "score": 0.92,
+        "doc": "lesson1.md",
+        "pid": 11,
+        "text": "列表添加示例"
+      },
+      {
+        "score": 0.89,
+        "doc": "lesson1.md",
+        "pid": 12,
+        "text": "列表删除示例"
+      },
+      {
+        "score": 0.87,
+        "doc": "lesson2.md",
+        "pid": 13,
+        "text": "列表切片示例"
+      },
+      {
+        "score": 0.85,
+        "doc": "lesson2.md",
+        "pid": 14,
+        "text": "列表推导式示例"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 34,
+    "query": "字典操作",
+    "top_k": 3,
+    "time": "2026-05-12 12:00:00",
+    "hit_count": 3,
+    "hits": [
+      {
+        "score": 0.9,
+        "doc": "lesson2.md",
+        "pid": 15,
+        "text": "字典添加示例"
+      },
+      {
+        "score": 0.88,
+        "doc": "lesson2.md",
+        "pid": 16,
+        "text": "字典删除示例"
+      },
+      {
+        "score": 0.85,
+        "doc": "lesson3.md",
+        "pid": 17,
+        "text": "字典嵌套示例"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 35,
+    "query": "FastAPI路由",
+    "top_k": 5,
+    "time": "2026-05-12 09:30:00",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 1.0,
+        "doc": "lesson4.md",
+        "pid": 18,
+        "text": "FastAPI GET路由示例"
+      },
+      {
+        "score": 0.95,
+        "doc": "lesson4.md",
+        "pid": 19,
+        "text": "FastAPI POST路由示例"
+      },
+      {
+        "score": 0.92,
+        "doc": "lesson4.md",
+        "pid": 20,
+        "text": "路径参数示例"
+      },
+      {
+        "score": 0.88,
+        "doc": "lesson5.md",
+        "pid": 21,
+        "text": "查询参数示例"
+      },
+      {
+        "score": 0.85,
+        "doc": "lesson5.md",
+        "pid": 22,
+        "text": "依赖注入示例"
+      }
+    ],
+    "tag": "FastAPI"
+  },
+  {
+    "id": 36,
+    "query": "FastAPI依赖注入",
+    "top_k": 4,
+    "time": "2026-05-12 10:30:00",
+    "hit_count": 4,
+    "hits": [
+      {
+        "score": 0.95,
+        "doc": "lesson4.md",
+        "pid": 23,
+        "text": "依赖注入基础"
+      },
+      {
+        "score": 0.92,
+        "doc": "lesson4.md",
+        "pid": 24,
+        "text": "参数校验示例"
+      },
+      {
+        "score": 0.9,
+        "doc": "lesson5.md",
+        "pid": 25,
+        "text": "组件注入示例"
+      },
+      {
+        "score": 0.88,
+        "doc": "lesson5.md",
+        "pid": 26,
+        "text": "复杂依赖嵌套示例"
+      }
+    ],
+    "tag": "FastAPI"
+  },
+  {
+    "id": 37,
+    "query": "课程项目",
+    "top_k": 3,
+    "time": "2026-05-12 11:15:00",
+    "hit_count": 3,
+    "hits": [
+      {
+        "score": 0.9,
+        "doc": "lesson1.md",
+        "pid": 27,
+        "text": "项目结构示例"
+      },
+      {
+        "score": 0.88,
+        "doc": "lesson2.md",
+        "pid": 28,
+        "text": "项目部署示例"
+      },
+      {
+        "score": 0.85,
+        "doc": "lesson3.md",
+        "pid": 29,
+        "text": "项目测试示例"
+      }
+    ],
+    "tag": "CourseQA"
+  },
+  {
+    "id": 38,
+    "query": "Python是什么",
+    "top_k": 5,
+    "time": "2026-05-13 16:20:21",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.0,
+        "doc": "test.md",
+        "pid": 1,
+        "text": "FastAPI"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 29,
+        "text": "CourseQA 项目虽然规模不大，但已经包含了真实软件项目中的多个重要元素，包括文件读取、文本检索、接口开发、历史记录、日志系统、异常处理、数据统计和可视化展示。通过这个项目，学生不仅能练习 Python 语法，还能理解一个系统如何从单文件脚本逐步演化为模块化工程。更重要的是，学生可以看到每次新增功能都需要考虑原有结构、数据格式、接口调用和测试验证，这正是软件工程课程希望培养的能力。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 28,
+        "text": "项目迭代过程中，最容易出现的问题是新功能破坏旧功能。例如第10次课已经实现了历史记录功能，第11次课增加统计和可视化时，如果强行改变 history.json 的结构，就可能导致原来的历史查询接口失效。因此，在软件工程中，升级功能时要尽量兼容已有数据结构。如果确实需要改变数据格式，也应提供转换逻辑或兼容读取逻辑，而不是让系统中出现新旧格式混合、无法统一处理的情况。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 27,
+        "text": "测试是软件项目不可缺少的环节。对于 CourseQA 项目来说，可以测试 Markdown 文档是否能正常读取，文本块是否能正常切分，TF-IDF 索引是否能构建，查询接口是否能返回结果，历史记录是否能写入，统计接口是否能正确输出数据。如果每次新增功能后都手动点页面测试，很容易遗漏问题。因此可以逐步引入简单的测试脚本或单元测试，帮助学生理解软件质量保障的基本思想。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 26,
+        "text": "查询参数增强可以提升系统的可配置性。例如 min_score 可以过滤相似度过低的检索结果，max_chars 可以控制返回文本长度，top_k 可以控制返回条数。这些参数能够让同一个查询接口适应不同使用场景。比如课堂演示时可以返回较短文本，方便观察；实际使用时可以返回更多段落，提升信息覆盖率。参数设计不仅影响用户体验，也体现了接口设计的灵活性和扩展性。"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 39,
+    "query": "Python 怎么循环",
+    "top_k": 5,
+    "time": "2026-05-13 16:42:20",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.32363346507764856,
+        "doc": "example.md",
+        "pid": 6,
+        "text": "Python 是一种广泛使用的高级编程语言，以语法简洁和可读性高而闻名。Python 支持多种编程范式，包括面向对象、函数式和过程式编程。初学者可以直接使用 Python 进行变量赋值、运算和简单的控制流程操作，无需像其他编程语言那样提前声明变量类型。Python 的标准库丰富，提供了从文件操作、数据结构、网络编程到数据库操作的各类模块，使得学习者可以在短时间内快速构建实用程序，并且能够在不同领域..."
+      },
+      {
+        "score": 0.2578301931692404,
+        "doc": "example.md",
+        "pid": 12,
+        "text": "函数是 Python 编程的基本单元，通过 def 关键字定义。函数可以接受参数、设置默认值、可变参数和关键字参数，同时支持返回值。函数的使用可以减少重复代码、提高程序可读性和可维护性。Python 还支持匿名函数 lambda，适合用于小型计算和回调操作。函数的调用顺序、作用域和参数传递机制是掌握 Python 编程的重要内容，良好的函数设计有助于构建模块化和可复用的程序。"
+      },
+      {
+        "score": 0.23487724158256074,
+        "doc": "example.md",
+        "pid": 1,
+        "text": "Python overview: Python is widely used in web development, scripting, and data analysis."
+      },
+      {
+        "score": 0.22699805649564075,
+        "doc": "example.md",
+        "pid": 14,
+        "text": "文件操作是 Python 常用技能，涵盖文本文件和二进制文件的读写。使用 open()、read()、write() 和 with 上下文管理器，可以安全、方便地处理文件。对于 JSON、CSV 等格式的文件，Python 提供了专门的模块，例如 json、csv，可以高效地进行序列化和反序列化操作。文件操作技能在数据分析、日志处理和配置管理中应用广泛，是 Python 编程基础之一。"
+      },
+      {
+        "score": 0.2226446736049344,
+        "doc": "lesson1.md",
+        "pid": 7,
+        "text": "Python 包的概念对于模块化项目非常关键。一个目录中如果包含 __init__.py 文件，通常可以被 Python 识别为包，从而支持 from package import module 这样的导入方式。虽然较新版本的 Python 对包的识别更加灵活，但在教学项目中保留 __init__.py 有助于学生理解包结构。比如 api、core、utils、stats 等目录都可以看作项目中的..."
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 40,
+    "query": "FastAPI 是什么",
+    "top_k": 5,
+    "time": "2026-05-13 16:42:33",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 1.0,
+        "doc": "test.md",
+        "pid": 1,
+        "text": "FastAPI"
+      },
+      {
+        "score": 0.5056452247928089,
+        "doc": "lesson1.md",
+        "pid": 1,
+        "text": "# FastAPI 入门"
+      },
+      {
+        "score": 0.46451892455749744,
+        "doc": "example.md",
+        "pid": 20,
+        "text": "FastAPI 是一个现代 Python Web 框架，支持异步编程和自动生成 Swagger UI 文档。通过 FastAPI，可以快速构建 API 服务，定义 GET、POST 等请求接口，并自动校验参数类型。FastAPI 还支持依赖注入、中间件和 WebSocket，适合构建高性能、可维护的后端服务。在课堂项目中，FastAPI 可以将离线检索功能封装成接口，便于前端调用。"
+      },
+      {
+        "score": 0.24150497057870077,
+        "doc": "lesson2.md",
+        "pid": 14,
+        "text": "FastAPI 的一个重要优势是可以自动生成 Swagger UI 文档。只要定义好接口路径、请求参数和返回数据，FastAPI 就能在浏览器中展示交互式接口文档。学生可以直接在 Swagger UI 中填写参数并测试接口，不需要额外安装 Postman。对于教学来说，这极大降低了接口测试门槛。通过 Swagger UI，学生可以观察请求参数如何传递，返回结果如何展示，也可以理解接口文档在真实项目..."
+      },
+      {
+        "score": 0.24150497057870077,
+        "doc": "lesson1.md",
+        "pid": 13,
+        "text": "FastAPI 的一个重要优势是可以自动生成 Swagger UI 文档。只要定义好接口路径、请求参数和返回数据，FastAPI 就能在浏览器中展示交互式接口文档。学生可以直接在 Swagger UI 中填写参数并测试接口，不需要额外安装 Postman。对于教学来说，这极大降低了接口测试门槛。通过 Swagger UI，学生可以观察请求参数如何传递，返回结果如何展示，也可以理解接口文档在真实项目..."
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 41,
+    "query": "pandas 怎么用",
+    "top_k": 5,
+    "time": "2026-05-13 16:42:45",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.4602591015074517,
+        "doc": "lesson2.md",
+        "pid": 21,
+        "text": "pandas 是 Python 数据分析中非常常用的库，它提供了 DataFrame 表格结构，适合处理结构化数据。对于 CourseQA 项目来说，可以将 history.json 读取为 DataFrame，然后按日期分组统计每日提问量，按 query 字段统计高频问题，按 tag 字段统计科目分布。pandas 的优势在于语法简洁，groupby、value_counts、reset_ind..."
+      },
+      {
+        "score": 0.4602591015074517,
+        "doc": "lesson1.md",
+        "pid": 20,
+        "text": "pandas 是 Python 数据分析中非常常用的库，它提供了 DataFrame 表格结构，适合处理结构化数据。对于 CourseQA 项目来说，可以将 history.json 读取为 DataFrame，然后按日期分组统计每日提问量，按 query 字段统计高频问题，按 tag 字段统计科目分布。pandas 的优势在于语法简洁，groupby、value_counts、reset_ind..."
+      },
+      {
+        "score": 0.15560410364408686,
+        "doc": "example.md",
+        "pid": 13,
+        "text": "模块化编程是 Python 的一大特点，开发者可以将相关函数、类和变量封装在独立文件中，使用 import 或 from ... import ... 语句导入模块。模块化有助于代码组织和复用，同时可以避免命名冲突。Python 官方提供了丰富的标准库模块，例如 math、datetime、os、json 等，开发者还可以使用 pip 安装第三方模块，例如 requests、pandas、nump..."
+      },
+      {
+        "score": 0.13091010166104042,
+        "doc": "lesson2.md",
+        "pid": 17,
+        "text": "历史记录的格式设计非常重要。如果每次查询保存的数据结构不统一，后续统计和可视化就会非常麻烦。例如有的记录使用 query 字段，有的记录使用 question 字段；有的记录使用 time 字段，有的记录使用 timestamp 字段；有的记录包含 hits，有的记录没有 hits。这样的混合格式会导致 pandas 读取时出现缺失字段或空值问题。因此在项目升级时，应尽量保持历史数据结构稳定，新增..."
+      },
+      {
+        "score": 0.13091010166104042,
+        "doc": "lesson1.md",
+        "pid": 16,
+        "text": "历史记录的格式设计非常重要。如果每次查询保存的数据结构不统一，后续统计和可视化就会非常麻烦。例如有的记录使用 query 字段，有的记录使用 question 字段；有的记录使用 time 字段，有的记录使用 timestamp 字段；有的记录包含 hits，有的记录没有 hits。这样的混合格式会导致 pandas 读取时出现缺失字段或空值问题。因此在项目升级时，应尽量保持历史数据结构稳定，新增..."
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 42,
+    "query": "如何读取 Excel",
+    "top_k": 5,
+    "time": "2026-05-13 16:42:58",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.0,
+        "doc": "test.md",
+        "pid": 1,
+        "text": "FastAPI"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 29,
+        "text": "CourseQA 项目虽然规模不大，但已经包含了真实软件项目中的多个重要元素，包括文件读取、文本检索、接口开发、历史记录、日志系统、异常处理、数据统计和可视化展示。通过这个项目，学生不仅能练习 Python 语法，还能理解一个系统如何从单文件脚本逐步演化为模块化工程。更重要的是，学生可以看到每次新增功能都需要考虑原有结构、数据格式、接口调用和测试验证，这正是软件工程课程希望培养的能力。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 28,
+        "text": "项目迭代过程中，最容易出现的问题是新功能破坏旧功能。例如第10次课已经实现了历史记录功能，第11次课增加统计和可视化时，如果强行改变 history.json 的结构，就可能导致原来的历史查询接口失效。因此，在软件工程中，升级功能时要尽量兼容已有数据结构。如果确实需要改变数据格式，也应提供转换逻辑或兼容读取逻辑，而不是让系统中出现新旧格式混合、无法统一处理的情况。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 27,
+        "text": "测试是软件项目不可缺少的环节。对于 CourseQA 项目来说，可以测试 Markdown 文档是否能正常读取，文本块是否能正常切分，TF-IDF 索引是否能构建，查询接口是否能返回结果，历史记录是否能写入，统计接口是否能正确输出数据。如果每次新增功能后都手动点页面测试，很容易遗漏问题。因此可以逐步引入简单的测试脚本或单元测试，帮助学生理解软件质量保障的基本思想。"
+      },
+      {
+        "score": 0.0,
+        "doc": "lesson2.md",
+        "pid": 26,
+        "text": "查询参数增强可以提升系统的可配置性。例如 min_score 可以过滤相似度过低的检索结果，max_chars 可以控制返回文本长度，top_k 可以控制返回条数。这些参数能够让同一个查询接口适应不同使用场景。比如课堂演示时可以返回较短文本，方便观察；实际使用时可以返回更多段落，提升信息覆盖率。参数设计不仅影响用户体验，也体现了接口设计的灵活性和扩展性。"
+      }
+    ],
+    "tag": "Python"
+  },
+  {
+    "id": 43,
+    "query": "Python 函数怎么写",
+    "top_k": 5,
+    "time": "2026-05-13 16:43:28",
+    "hit_count": 5,
+    "hits": [
+      {
+        "score": 0.32363346507764856,
+        "doc": "example.md",
+        "pid": 6,
+        "text": "Python 是一种广泛使用的高级编程语言，以语法简洁和可读性高而闻名。Python 支持多种编程范式，包括面向对象、函数式和过程式编程。初学者可以直接使用 Python 进行变量赋值、运算和简单的控制流程操作，无需像其他编程语言那样提前声明变量类型。Python 的标准库丰富，提供了从文件操作、数据结构、网络编程到数据库操作的各类模块，使得学习者可以在短时间内快速构建实用程序，并且能够在不同领域..."
+      },
+      {
+        "score": 0.2578301931692404,
+        "doc": "example.md",
+        "pid": 12,
+        "text": "函数是 Python 编程的基本单元，通过 def 关键字定义。函数可以接受参数、设置默认值、可变参数和关键字参数，同时支持返回值。函数的使用可以减少重复代码、提高程序可读性和可维护性。Python 还支持匿名函数 lambda，适合用于小型计算和回调操作。函数的调用顺序、作用域和参数传递机制是掌握 Python 编程的重要内容，良好的函数设计有助于构建模块化和可复用的程序。"
+      },
+      {
+        "score": 0.23487724158256074,
+        "doc": "example.md",
+        "pid": 1,
+        "text": "Python overview: Python is widely used in web development, scripting, and data analysis."
+      },
+      {
+        "score": 0.22699805649564075,
+        "doc": "example.md",
+        "pid": 14,
+        "text": "文件操作是 Python 常用技能，涵盖文本文件和二进制文件的读写。使用 open()、read()、write() 和 with 上下文管理器，可以安全、方便地处理文件。对于 JSON、CSV 等格式的文件，Python 提供了专门的模块，例如 json、csv，可以高效地进行序列化和反序列化操作。文件操作技能在数据分析、日志处理和配置管理中应用广泛，是 Python 编程基础之一。"
+      },
+      {
+        "score": 0.2226446736049344,
+        "doc": "lesson1.md",
+        "pid": 7,
+        "text": "Python 包的概念对于模块化项目非常关键。一个目录中如果包含 __init__.py 文件，通常可以被 Python 识别为包，从而支持 from package import module 这样的导入方式。虽然较新版本的 Python 对包的识别更加灵活，但在教学项目中保留 __init__.py 有助于学生理解包结构。比如 api、core、utils、stats 等目录都可以看作项目中的..."
+      }
+    ],
+    "tag": "Python"
+  }
+]
